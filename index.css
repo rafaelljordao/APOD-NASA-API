@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  background-image: url(https://images.pexels.com/photos/1694000/pexels-photo-1694000.jpeg?cs=srgb&dl=pexels-aleksandar-pasaric-1694000.jpg&fm=jpg);
+  /* background-image: url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?cs=srgb&dl=pexels-francesco-ungaro-998641.jpg&fm=jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#title {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  margin-bottom: 500px;
+}
+
+#form-apod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 300px;
+  height: 100px;
+  /* background-color: bisque; */
+  color: white;
+}
+
+#date-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  /* background-color: aqua; */
+}
+  
+#date-apod {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#info-apod {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.infos {
+  color: white;
+  text-align: center;
+  /* background-color: green; */
+  width: 300px;
+}
+  
+#date-input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 20px;
+}
+  

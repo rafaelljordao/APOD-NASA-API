@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <p id="title">APOD - Astronomy Picture Of the Day</p>
+
+  <form id="form-apod">
+    <div id="date-form">
+       <label for="date" id="date-lbl" class="date-form">Escolha uma data entre 16/06/1995 e hoje:</label>
+       <input type="date" name="date" id="date-input" class="date-form">
+       <input type="submit" name="submit" id="submit" value="pesquisar" class="date-form">
+    </div>
+  </form>
+  
+  <div id="vid"></div>
+    
+  <div id="pic"></div>
+    
+  <div id="info-apod">
+
+    <div class="infos" id="title"></div>
+    <div class="infos" id="date"></div>
+    <div class="infos" id="media-type"></div>
+    <div class="infos" id="copyright"></div>
+
+  </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
